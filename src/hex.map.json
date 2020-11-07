@@ -1,0 +1,144 @@
+{
+  "width": 6,
+  "height": 1,
+  "infoLayer": [
+    {
+      "label": {
+        "text": "",
+        "visible": false,
+        "fontSize": 30,
+        "fontColor": "#000000",
+        "borderColor": "#000000",
+        "backgroundColor": "#FFFFFF",
+        "horizontalOffset": 0,
+        "verticalOffset": 0,
+        "opacity": 1
+      },
+      "data": "",
+      "selected": false,
+      "custom": false
+    },
+    {
+      "label": {
+        "text": "",
+        "visible": false,
+        "fontSize": 30,
+        "fontColor": "#000000",
+        "borderColor": "#000000",
+        "backgroundColor": "#FFFFFF",
+        "horizontalOffset": 0,
+        "verticalOffset": 0,
+        "opacity": 1
+      },
+      "data": "",
+      "selected": false,
+      "custom": false
+    },
+    {
+      "label": {
+        "text": "",
+        "visible": false,
+        "fontSize": 30,
+        "fontColor": "#000000",
+        "borderColor": "#000000",
+        "backgroundColor": "#FFFFFF",
+        "horizontalOffset": 0,
+        "verticalOffset": 0,
+        "opacity": 1
+      },
+      "data": "",
+      "selected": false,
+      "custom": false
+    },
+    {
+      "label": {
+        "text": "",
+        "visible": false,
+        "fontSize": 30,
+        "fontColor": "#000000",
+        "borderColor": "#000000",
+        "backgroundColor": "#FFFFFF",
+        "horizontalOffset": 0,
+        "verticalOffset": 0,
+        "opacity": 1
+      },
+      "data": "",
+      "selected": false,
+      "custom": false
+    },
+    {
+      "label": {
+        "text": "",
+        "visible": false,
+        "fontSize": 30,
+        "fontColor": "#000000",
+        "borderColor": "#000000",
+        "backgroundColor": "#FFFFFF",
+        "horizontalOffset": 0,
+        "verticalOffset": 0,
+        "opacity": 1
+      },
+      "data": "",
+      "selected": false,
+      "custom": false
+    },
+    {
+      "label": {
+        "text": "",
+        "visible": false,
+        "fontSize": 30,
+        "fontColor": "#000000",
+        "borderColor": "#000000",
+        "backgroundColor": "#FFFFFF",
+        "horizontalOffset": 0,
+        "verticalOffset": 0,
+        "opacity": 1
+      },
+      "data": "",
+      "selected": false,
+      "custom": false
+    }
+  ],
+  "topStaggered": false,
+  "origin": {
+    "x": 0,
+    "y": -5
+  },
+  "layers": [
+    {
+      "label": "Base",
+      "visible": true,
+      "tiles": [
+        {
+          "source": "HK-Classic:/HKC-Coasts/hk-classic_191.png",
+          "rotation": 0,
+          "mirror": false
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "label": "FOW",
+      "visible": true,
+      "tiles": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  ],
+  "coordinates": {
+    "color": "#FFFFFF",
+    "position": "bottom",
+    "size": 18,
+    "show": false
+  },
+  "background": "#FFFFFF"
+}
