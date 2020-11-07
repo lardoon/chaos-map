@@ -115,7 +115,11 @@
           "mirror": false
         },
         null,
-        null,
+        {
+          "source": "HK-Classic:/HKC-Coasts/hk-classic_191.png",
+          "rotation": 0,
+          "mirror": false
+        },
         null,
         null,
         null

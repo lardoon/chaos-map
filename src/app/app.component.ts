@@ -32,6 +32,7 @@ export class AppComponent implements AfterViewInit {
       .size("100%", "100%");
 
     const Hex = extendHex({ size: 40 });
+    
     const Grid = defineGrid(Hex);
     // get the corners of a hex (they're the same for all hexes created with the same Hex factory)
     const corners = Hex().corners();
@@ -49,11 +50,12 @@ export class AppComponent implements AfterViewInit {
         const { x, y } = hex.toPoint();
         const coord = hex.x + hex.y * this.map.width;
         console.log(this.map.layers[0].tiles[coord]);
+        if(this.map.layers[0].tiles[coord] != null) {
         // use hexSymbol and set its position for each hex
         draw
           .use(hexSymbol)
-          .translate(x, y)
-          .visible(this.map.layers[0].tiles[coord] != null);
+          .translate(x, y);
+        }
       }
     );
   }
